@@ -1,8 +1,10 @@
 @echo off 
 
-cd /d "C:\Program Files (x86)\Audiokinetic\Wwise 2023.1.2.8444\Authoring\x64\Release\bin"
+cd /d "%WWISEROOT%\Authoring\x64\Release\bin"
 
-wwiseconsole generate-soundbank "E:\Unreal\NiagaraWwise\NiagaraWwise_WwiseProject\NiagaraWwise_WwiseProject.wproj"
+:: Builds banks for all selected platforms in the project
+wwiseconsole generate-soundbank "Add .wproj directory here" 
+
 echo Soundbank generation completed. 
 
 pause
