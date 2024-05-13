@@ -1,1 +1,1 @@
-# Simmple-Wwise-Batch-Scripts
+# Wwise-Batch-Scripts
